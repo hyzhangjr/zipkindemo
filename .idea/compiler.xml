@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zipkindemo-server" />
+        <module name="zipkindemo-server2" />
+        <module name="zipkindemo-server3" />
+        <module name="zipkindemo-server4" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zipkindemo" target="1.6" />
+      <module name="zipkindemo-server" target="1.7" />
+      <module name="zipkindemo-server2" target="1.7" />
+      <module name="zipkindemo-server3" target="1.7" />
+      <module name="zipkindemo-server4" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
